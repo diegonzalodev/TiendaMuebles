@@ -1,0 +1,9 @@
+.text-center {
+	text-align: center;
+}
+
+@media (min-width: 768px) {
+	.max-width-30 {
+		max-width: 30rem;
+	}
+}

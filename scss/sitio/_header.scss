@@ -1,0 +1,36 @@
+.nombre-sitio {
+	margin-top: 5rem;
+	text-align: center;
+	span {
+		color: #037bc0;
+	}
+}
+
+.contenedor-navegacion {
+	border-top: .1rem solid #e1e1e1;
+}
+
+.nav-principal {
+	padding: 2rem 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.hero {
+	background-image: url(../img/principal.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: 25rem;
+}
+
+@media (min-width: 768px) {
+	.nav-principal {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	.hero {
+		height: 55rem;
+	}
+}
